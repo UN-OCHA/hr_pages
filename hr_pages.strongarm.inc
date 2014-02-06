@@ -13,6 +13,33 @@ function hr_pages_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_hide_translation_links_hr_page';
+  $strongarm->value = 0;
+  $export['entity_translation_hide_translation_links_hr_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_node_metadata_hr_page';
+  $strongarm->value = '0';
+  $export['entity_translation_node_metadata_hr_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'entity_translation_settings_node__hr_page';
+  $strongarm->value = array(
+    'default_language' => 'xx-et-default',
+    'hide_language_selector' => 0,
+    'exclude_language_none' => 1,
+    'lock_language' => 1,
+    'shared_fields_original_only' => 0,
+  );
+  $export['entity_translation_settings_node__hr_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_node__hr_page';
   $strongarm->value = array(
     'view_modes' => array(),
@@ -159,6 +186,13 @@ function hr_pages_strongarm() {
     'other' => 'other',
   );
   $export['panelizer_node:hr_page_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_node_hr_page_pattern';
+  $strongarm->value = '[node:og-group-ref:url:path]/pages/[node:title]';
+  $export['pathauto_node_hr_page_pattern'] = $strongarm;
 
   return $export;
 }
