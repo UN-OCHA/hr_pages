@@ -43,10 +43,11 @@ function hr_pages_panelizer_defaults() {
   );
   $display->cache = array();
   $display->title = '%node:title';
+  $display->uuid = '132e0da5-7125-4267-bbc1-cbd03dc2dc9f';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-1';
+    $pane->pid = 'new-ff09a454-ad15-47f7-af58-37442962cd41';
     $pane->panel = 'top';
     $pane->type = 'entity_field';
     $pane->subtype = 'node:body';
@@ -69,8 +70,9 @@ function hr_pages_panelizer_defaults() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-1'] = $pane;
-    $display->panels['top'][0] = 'new-1';
+    $pane->uuid = 'ff09a454-ad15-47f7-af58-37442962cd41';
+    $display->content['new-ff09a454-ad15-47f7-af58-37442962cd41'] = $pane;
+    $display->panels['top'][0] = 'new-ff09a454-ad15-47f7-af58-37442962cd41';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $panelizer->display = $display;
