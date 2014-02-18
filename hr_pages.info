@@ -3,6 +3,7 @@ description = Static space pages
 core = 7.x
 package = Humanitarianresponse
 dependencies[] = ctools
+dependencies[] = entityreference
 dependencies[] = entityreference_prepopulate
 dependencies[] = features
 dependencies[] = hr_bundles
