@@ -171,8 +171,8 @@ function hr_pages_field_default_field_instances() {
           'status' => TRUE,
         ),
         'prepopulate' => array(
-          'action' => 'disable',
-          'action_on_edit' => 1,
+          'action' => 'hide',
+          'action_on_edit' => 0,
           'fallback' => 'form_error',
           'og_context' => 0,
           'skip_perm' => 0,
