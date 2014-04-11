@@ -10,6 +10,26 @@
 function hr_pages_og_features_default_permissions() {
   $permissions = array();
 
+  // Exported og permission: 'node:hr_bundle:access authoring options of hr_page content'
+  $permissions['node:hr_bundle:access authoring options of hr_page content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
+  // Exported og permission: 'node:hr_bundle:access publishing options of hr_page content'
+  $permissions['node:hr_bundle:access publishing options of hr_page content'] = array(
+    'roles' => array(),
+  );
+
+  // Exported og permission: 'node:hr_bundle:access revisions options of hr_page content'
+  $permissions['node:hr_bundle:access revisions options of hr_page content'] = array(
+    'roles' => array(
+      'editor' => 'editor',
+      'manager' => 'manager',
+    ),
+  );
+
   // Exported og permission: 'node:hr_bundle:administer panelizer node hr_page content'
   $permissions['node:hr_bundle:administer panelizer node hr_page content'] = array(
     'roles' => array(
@@ -51,6 +71,34 @@ function hr_pages_og_features_default_permissions() {
 
   // Exported og permission: 'node:hr_bundle:update own hr_page content'
   $permissions['node:hr_bundle:update own hr_page content'] = array(
+    'roles' => array(
+      'editor' => 'editor',
+      'manager' => 'manager',
+    ),
+  );
+
+  // Exported og permission: 'node:hr_bundle:view any unpublished hr_page content'
+  $permissions['node:hr_bundle:view any unpublished hr_page content'] = array(
+    'roles' => array(
+      'editor' => 'editor',
+      'manager' => 'manager',
+    ),
+  );
+
+  // Exported og permission: 'node:hr_operation:access authoring options of hr_page content'
+  $permissions['node:hr_operation:access authoring options of hr_page content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
+  // Exported og permission: 'node:hr_operation:access publishing options of hr_page content'
+  $permissions['node:hr_operation:access publishing options of hr_page content'] = array(
+    'roles' => array(),
+  );
+
+  // Exported og permission: 'node:hr_operation:access revisions options of hr_page content'
+  $permissions['node:hr_operation:access revisions options of hr_page content'] = array(
     'roles' => array(
       'editor' => 'editor',
       'manager' => 'manager',
@@ -109,6 +157,34 @@ function hr_pages_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:hr_operation:view any unpublished hr_page content'
+  $permissions['node:hr_operation:view any unpublished hr_page content'] = array(
+    'roles' => array(
+      'editor' => 'editor',
+      'manager' => 'manager',
+    ),
+  );
+
+  // Exported og permission: 'node:hr_sector:access authoring options of hr_page content'
+  $permissions['node:hr_sector:access authoring options of hr_page content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
+  // Exported og permission: 'node:hr_sector:access publishing options of hr_page content'
+  $permissions['node:hr_sector:access publishing options of hr_page content'] = array(
+    'roles' => array(),
+  );
+
+  // Exported og permission: 'node:hr_sector:access revisions options of hr_page content'
+  $permissions['node:hr_sector:access revisions options of hr_page content'] = array(
+    'roles' => array(
+      'editor' => 'editor',
+      'manager' => 'manager',
+    ),
+  );
+
   // Exported og permission: 'node:hr_sector:administer panelizer node hr_page content'
   $permissions['node:hr_sector:administer panelizer node hr_page content'] = array(
     'roles' => array(
@@ -156,6 +232,34 @@ function hr_pages_og_features_default_permissions() {
     ),
   );
 
+  // Exported og permission: 'node:hr_sector:view any unpublished hr_page content'
+  $permissions['node:hr_sector:view any unpublished hr_page content'] = array(
+    'roles' => array(
+      'editor' => 'editor',
+      'manager' => 'manager',
+    ),
+  );
+
+  // Exported og permission: 'node:hr_space:access authoring options of hr_page content'
+  $permissions['node:hr_space:access authoring options of hr_page content'] = array(
+    'roles' => array(
+      'manager' => 'manager',
+    ),
+  );
+
+  // Exported og permission: 'node:hr_space:access publishing options of hr_page content'
+  $permissions['node:hr_space:access publishing options of hr_page content'] = array(
+    'roles' => array(),
+  );
+
+  // Exported og permission: 'node:hr_space:access revisions options of hr_page content'
+  $permissions['node:hr_space:access revisions options of hr_page content'] = array(
+    'roles' => array(
+      'editor' => 'editor',
+      'manager' => 'manager',
+    ),
+  );
+
   // Exported og permission: 'node:hr_space:administer panelizer node hr_page content'
   $permissions['node:hr_space:administer panelizer node hr_page content'] = array(
     'roles' => array(
@@ -197,6 +301,14 @@ function hr_pages_og_features_default_permissions() {
 
   // Exported og permission: 'node:hr_space:update own hr_page content'
   $permissions['node:hr_space:update own hr_page content'] = array(
+    'roles' => array(
+      'editor' => 'editor',
+      'manager' => 'manager',
+    ),
+  );
+
+  // Exported og permission: 'node:hr_space:view any unpublished hr_page content'
+  $permissions['node:hr_space:view any unpublished hr_page content'] = array(
     'roles' => array(
       'editor' => 'editor',
       'manager' => 'manager',
