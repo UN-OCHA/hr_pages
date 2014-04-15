@@ -30,7 +30,7 @@ function hr_pages_panelizer_defaults() {
   $panelizer->link_to_entity = TRUE;
   $panelizer->extra = array();
   $display = new panels_display();
-  $display->layout = 'twocol_stacked';
+  $display->layout = 'radix_boxton';
   $display->layout_settings = array();
   $display->panel_settings = array(
     'style_settings' => array(
@@ -39,6 +39,7 @@ function hr_pages_panelizer_defaults() {
       'left' => NULL,
       'right' => NULL,
       'bottom' => NULL,
+      'contentmain' => NULL,
     ),
   );
   $display->cache = array();
@@ -48,7 +49,7 @@ function hr_pages_panelizer_defaults() {
   $display->panels = array();
     $pane = new stdClass();
     $pane->pid = 'new-ff09a454-ad15-47f7-af58-37442962cd41';
-    $pane->panel = 'top';
+    $pane->panel = 'contentmain';
     $pane->type = 'entity_field';
     $pane->subtype = 'node:body';
     $pane->shown = TRUE;
@@ -72,7 +73,7 @@ function hr_pages_panelizer_defaults() {
     $pane->locks = array();
     $pane->uuid = 'ff09a454-ad15-47f7-af58-37442962cd41';
     $display->content['new-ff09a454-ad15-47f7-af58-37442962cd41'] = $pane;
-    $display->panels['top'][0] = 'new-ff09a454-ad15-47f7-af58-37442962cd41';
+    $display->panels['contentmain'][0] = 'new-ff09a454-ad15-47f7-af58-37442962cd41';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $panelizer->display = $display;
