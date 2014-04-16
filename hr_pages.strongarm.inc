@@ -51,6 +51,9 @@ function hr_pages_strongarm() {
         'language' => array(
           'weight' => '3',
         ),
+        'redirect' => array(
+          'weight' => '7',
+        ),
       ),
       'display' => array(),
     ),

@@ -57,7 +57,7 @@ function hr_pages_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 2,
+      'weight' => 1,
     ),
   );
 
@@ -123,8 +123,68 @@ function hr_pages_field_default_field_instances() {
       'module' => 'og',
       'settings' => array(),
       'type' => 'og_complex',
-      'weight' => 3,
+      'weight' => 2,
     ),
+  );
+
+  // Exported field_instance: 'node-hr_page-group_content_access'
+  $field_instances['node-hr_page-group_content_access'] = array(
+    'bundle' => 'hr_page',
+    'default_value' => array(
+      0 => array(
+        'value' => 0,
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 4,
+      ),
+      'search_result' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'group_content_access',
+    'label' => 'Group content visibility',
+    'required' => TRUE,
+    'settings' => array(
+      'entity_translation_sync' => FALSE,
+      'user_register_form' => FALSE,
+    ),
+    'view modes' => array(
+      'full' => array(
+        'label' => 'above',
+        'type' => 'list_default',
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'type' => 'list_default',
+      ),
+    ),
+    'widget' => array(
+      'module' => 'options',
+      'settings' => array(
+        'apply_chosen' => 0,
+      ),
+      'type' => 'options_select',
+      'weight' => 5,
+    ),
+    'widget_type' => 'options_select',
   );
 
   // Exported field_instance: 'node-hr_page-og_group_ref'
@@ -199,7 +259,7 @@ function hr_pages_field_default_field_instances() {
       'module' => 'og',
       'settings' => array(),
       'type' => 'og_complex',
-      'weight' => 4,
+      'weight' => 6,
     ),
   );
 
@@ -256,6 +316,7 @@ function hr_pages_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Body');
   t('Clusters/Sectors');
+  t('Group content visibility');
   t('Groups audience');
   t('Title');
 
