@@ -149,6 +149,8 @@ function hr_pages_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'panelizer_node:hr_page_allowed_types';
   $strongarm->value = array(
+    'bean_pane-fts_visualization' => 'bean_pane-fts_visualization',
+    'twitter-twitter' => 'twitter-twitter',
     'user_picture-user_picture' => 0,
     'user_profile-user_profile' => 0,
     'user_signature-user_signature' => 0,
@@ -1402,6 +1404,7 @@ function hr_pages_strongarm() {
     'fieldable_panels_pane-hr_documents' => 'fieldable_panels_pane-hr_documents',
     'fieldable_panels_pane-hr_users' => 'fieldable_panels_pane-hr_users',
     'fieldable_panels_pane-fieldable_panels_pane' => 0,
+    'fieldable_panels_pane-hr_infographics' => 'fieldable_panels_pane-hr_infographics',
     'flag_link-node' => 0,
     'flag_link-taxonomy_term' => 0,
     'flag_link-fieldable_panels_pane' => 0,
