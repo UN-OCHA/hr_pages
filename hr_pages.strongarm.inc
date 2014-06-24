@@ -1465,6 +1465,7 @@ function hr_pages_strongarm() {
     'views_panes-hr_events_panes-upcoming' => 'views_panes-hr_events_panes-upcoming',
     'views_panes-hr_contacts_panes-list' => 'views_panes-hr_contacts_panes-list',
     'views_panes-hr_documents_panes-list' => 'views_panes-hr_documents_panes-list',
+    'views_panes-hr_infographics_panes-list' => 'views_panes-hr_infographics_panes-list',
     'views_panes-hr_operations-text' => 0,
     'views_panes-hr_operations-map' => 0,
     'views_panes-hr_users-space_members' => 0,
