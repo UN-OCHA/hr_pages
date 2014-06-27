@@ -217,11 +217,12 @@ function hr_pages_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'og_group_ref',
-    'label' => 'Groups audience',
+    'label' => 'Space(s)',
     'required' => 1,
     'settings' => array(
       'behaviors' => array(
         'og_widget' => array(
+          'access_override' => 0,
           'admin' => array(
             'widget_type' => 'entityreference_autocomplete',
           ),
@@ -231,10 +232,13 @@ function hr_pages_field_default_field_instances() {
           'status' => TRUE,
         ),
         'prepopulate' => array(
-          'action' => 'hide',
+          'action' => 'none',
           'action_on_edit' => 0,
           'fallback' => 'form_error',
-          'og_context' => 0,
+          'providers' => array(
+            'og_context' => 0,
+            'url' => 1,
+          ),
           'skip_perm' => 0,
           'status' => 1,
         ),
@@ -317,7 +321,7 @@ function hr_pages_field_default_field_instances() {
   t('Body');
   t('Clusters/Sectors');
   t('Group content visibility');
-  t('Groups audience');
+  t('Space(s)');
   t('Title');
 
   return $field_instances;

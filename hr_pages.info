@@ -88,6 +88,7 @@ features[variable][] = panelizer_node:hr_page_allowed_types
 features[variable][] = panelizer_node:hr_page_allowed_types_default
 features[variable][] = panelizer_node:hr_page_default
 features[variable][] = pathauto_node_hr_page_pattern
+features[variable][] = publishcontent_hr_page
 features_exclude[og_features_role][node:hr_bundle:manager] = node:hr_bundle:manager
 features_exclude[og_features_role][node:hr_bundle:editor] = node:hr_bundle:editor
 features_exclude[og_features_role][node:hr_operation:manager] = node:hr_operation:manager

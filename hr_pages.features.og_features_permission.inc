@@ -40,6 +40,7 @@ function hr_pages_og_features_default_permissions() {
   // Exported og permission: 'node:hr_bundle:create hr_page content'
   $permissions['node:hr_bundle:create hr_page content'] = array(
     'roles' => array(
+      'contributor' => 'contributor',
       'editor' => 'editor',
       'manager' => 'manager',
     ),
@@ -56,6 +57,7 @@ function hr_pages_og_features_default_permissions() {
   // Exported og permission: 'node:hr_bundle:delete own hr_page content'
   $permissions['node:hr_bundle:delete own hr_page content'] = array(
     'roles' => array(
+      'contributor' => 'contributor',
       'editor' => 'editor',
       'manager' => 'manager',
     ),
@@ -72,6 +74,7 @@ function hr_pages_og_features_default_permissions() {
   // Exported og permission: 'node:hr_bundle:update own hr_page content'
   $permissions['node:hr_bundle:update own hr_page content'] = array(
     'roles' => array(
+      'contributor' => 'contributor',
       'editor' => 'editor',
       'manager' => 'manager',
     ),
@@ -116,6 +119,7 @@ function hr_pages_og_features_default_permissions() {
   $permissions['node:hr_operation:create hr_page content'] = array(
     'roles' => array(
       'bundle member' => 'bundle member',
+      'contributor' => 'contributor',
       'editor' => 'editor',
       'manager' => 'manager',
     ),
@@ -134,6 +138,7 @@ function hr_pages_og_features_default_permissions() {
   $permissions['node:hr_operation:delete own hr_page content'] = array(
     'roles' => array(
       'bundle member' => 'bundle member',
+      'contributor' => 'contributor',
       'editor' => 'editor',
       'manager' => 'manager',
     ),
@@ -152,6 +157,7 @@ function hr_pages_og_features_default_permissions() {
   $permissions['node:hr_operation:update own hr_page content'] = array(
     'roles' => array(
       'bundle member' => 'bundle member',
+      'contributor' => 'contributor',
       'editor' => 'editor',
       'manager' => 'manager',
     ),
