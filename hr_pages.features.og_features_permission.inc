@@ -201,6 +201,7 @@ function hr_pages_og_features_default_permissions() {
   // Exported og permission: 'node:hr_sector:create hr_page content'
   $permissions['node:hr_sector:create hr_page content'] = array(
     'roles' => array(
+      'contributor' => 'contributor',
       'editor' => 'editor',
       'manager' => 'manager',
     ),
@@ -217,6 +218,7 @@ function hr_pages_og_features_default_permissions() {
   // Exported og permission: 'node:hr_sector:delete own hr_page content'
   $permissions['node:hr_sector:delete own hr_page content'] = array(
     'roles' => array(
+      'contributor' => 'contributor',
       'editor' => 'editor',
       'manager' => 'manager',
     ),
@@ -233,6 +235,7 @@ function hr_pages_og_features_default_permissions() {
   // Exported og permission: 'node:hr_sector:update own hr_page content'
   $permissions['node:hr_sector:update own hr_page content'] = array(
     'roles' => array(
+      'contributor' => 'contributor',
       'editor' => 'editor',
       'manager' => 'manager',
     ),
@@ -276,6 +279,7 @@ function hr_pages_og_features_default_permissions() {
   // Exported og permission: 'node:hr_space:create hr_page content'
   $permissions['node:hr_space:create hr_page content'] = array(
     'roles' => array(
+      'contributor' => 'contributor',
       'editor' => 'editor',
       'manager' => 'manager',
     ),
@@ -292,6 +296,7 @@ function hr_pages_og_features_default_permissions() {
   // Exported og permission: 'node:hr_space:delete own hr_page content'
   $permissions['node:hr_space:delete own hr_page content'] = array(
     'roles' => array(
+      'contributor' => 'contributor',
       'editor' => 'editor',
       'manager' => 'manager',
     ),
@@ -308,6 +313,7 @@ function hr_pages_og_features_default_permissions() {
   // Exported og permission: 'node:hr_space:update own hr_page content'
   $permissions['node:hr_space:update own hr_page content'] = array(
     'roles' => array(
+      'contributor' => 'contributor',
       'editor' => 'editor',
       'manager' => 'manager',
     ),
