@@ -49,7 +49,7 @@ function hr_pages_strongarm() {
           'weight' => '4',
         ),
         'language' => array(
-          'weight' => '3',
+          'weight' => '-10',
         ),
         'redirect' => array(
           'weight' => '7',
