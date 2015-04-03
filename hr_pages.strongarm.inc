@@ -153,6 +153,8 @@ function hr_pages_strongarm() {
     'hr_contacts_key_contacts-hr_contacts_key_contacts' => 'hr_contacts_key_contacts-hr_contacts_key_contacts',
     'hr_documents_key_documents-hr_documents_key_documents' => 'hr_documents_key_documents-hr_documents_key_documents',
     'hr_infographics_key_infographics-hr_infographics_key_infographics' => 'hr_infographics_key_infographics-hr_infographics_key_infographics',
+    'hr_layout_reliefweb-hr_layout_reliefweb' => 'hr_layout_reliefweb-hr_layout_reliefweb',
+    'hr_layout_rss_feeds-hr_layout_rss_feeds' => 'hr_layout_rss_feeds-hr_layout_rss_feeds',
     'twitter-twitter' => 'twitter-twitter',
     'user_picture-user_picture' => 0,
     'user_profile-user_profile' => 0,
