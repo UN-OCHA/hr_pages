@@ -1408,7 +1408,7 @@ function hr_pages_strongarm() {
     'fieldable_panels_pane-hr_contacts' => 0,
     'fieldable_panels_pane-hr_documents' => 0,
     'fieldable_panels_pane-hr_users' => 'fieldable_panels_pane-hr_users',
-    'fieldable_panels_pane-fieldable_panels_pane' => 0,
+    'fieldable_panels_pane-fieldable_panels_pane' => 'fieldable_panels_pane-fieldable_panels_pane',
     'fieldable_panels_pane-hr_infographics' => 0,
     'flag_link-node' => 0,
     'flag_link-taxonomy_term' => 0,
