@@ -662,7 +662,7 @@ function hr_pages_strongarm() {
     'entity_form_field-file:field_file_image_title_text' => 0,
     'entity_form_field-user:field_responder_in' => 0,
     'entity_form_field-user:og_user_node' => 0,
-    'custom-custom' => 'custom-custom',
+    'custom-custom' => 0,
     'entity_field_extra-node:hr_core_share_button' => 0,
     'entity_field_extra-taxonomy_term:description' => 0,
     'entity_field_extra-fieldable_panels_pane:title' => 0,
