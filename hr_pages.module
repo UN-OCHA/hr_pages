@@ -30,7 +30,7 @@ function hr_pages_og_features_registry() {
  */
 function hr_pages_page_alter(&$page) {
   $node = menu_get_object();
-  if ($node && $node->type == 'hr_page' && $node->field_page_menu[LANGUAGE_NONE][0]['value'] == 1) {
+  if ($node && $node->type == 'hr_page' && isset($node->field_page_menu[LANGUAGE_NONE]) && $node->field_page_menu[LANGUAGE_NONE][0]['value'] == 1) {
     unset($page['sidebar_first']);
   }
 }
